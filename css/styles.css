@@ -966,6 +966,10 @@ address a {
   background-color: var(--accent-color);
 }
 
+.icon-form-checkbox-link {
+  text-underline-position: under;
+}
+
 .button-form-submit {
   display: block;
   margin-left: auto;
