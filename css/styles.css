@@ -836,8 +836,9 @@ address a {
 
 .footer-form-icon {
   position: absolute;
-  top: 13px;
+  top: 50%;
   right: 28px;
+  transform: translateY(-50%);
 }
 
 /* -----------Form Data------------ */
@@ -880,7 +881,7 @@ address a {
 
 .icon-form-item {
   position: absolute;
-  top: 28px;
+  top: 50%;
   left: 12px;
 }
 
@@ -945,8 +946,9 @@ address a {
 
 .check-box {
   position: absolute;
-  top: 4px;
+  top: 50%;
   left: 6px;
+  transform: translateY(-50%);
   display: flex;
   justify-content: center;
   width: 16px;
