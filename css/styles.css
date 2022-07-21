@@ -937,7 +937,7 @@ address a {
 }
 
 .form-field-checkbox {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
@@ -947,7 +947,7 @@ address a {
 .check-box {
   position: absolute;
   top: 50%;
-  left: 6px;
+  left: 15px;
   transform: translateY(-50%);
   display: flex;
   justify-content: center;
