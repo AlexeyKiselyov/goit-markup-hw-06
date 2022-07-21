@@ -813,6 +813,9 @@ address a {
   outline: none;
 }
 
+.footer-form-btn-box {
+  position: relative;
+}
 .footer-form-btn {
   display: flex;
   align-items: center;
@@ -830,6 +833,12 @@ address a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
+}
+
+.footer-form-icon {
+  position: absolute;
+  top: 13px;
+  right: 28px;
 }
 
 /* -----------Form Data------------ */
@@ -876,14 +885,11 @@ address a {
   left: 12px;
 }
 
-.form-field-input:focus + .icon-form-item,
-.form-field-input:hover + .icon-form-item {
+.form-field-input:focus + .icon-form-item {
   fill: var(--accent-color);
 }
 
 .form-field-input:focus,
-.form-field-input:hover,
-.form-field.data textarea:hover,
 .form-field.data textarea:focus {
   border-color: var(--accent-color);
 }
